@@ -1,0 +1,28 @@
+body {
+    min-height: 100%;
+    background-image: url("images/backgroundPhoto.jpg")
+}
+
+.container-jumbotron {
+    margin-top: 50px;
+    opacity: 0.9;
+}
+
+.row-header {
+    text-align: center;
+}
+
+.row-buttonOpt {
+    text-align: center;
+    padding: 15px;
+}
+
+.animal {
+    border-radius: 2px;
+    margin: 5px;
+    background-color: grey;
+}
+
+.row-btnSubmit {
+    margin-left: 20px;
+}

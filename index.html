@@ -5,29 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>GifTastic</title>
+
+    <!--Apply styling sheet and bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
 </head>
 
 <body>
-    <div class="container">
-        <h1>Animal Gifs!</h1>
+    <div class="container container-jumbotron">
+        <div class="jumbotron">
+            <div class="row row-header">
+                <div class="col-12">
+                    <h1>Animal Gifs!</h1>
+                </div>
+            </div>
+            <hr>
 
-        <!-- Buttons should appear here -->
-        <div id="buttonView"></div>
-        <div class="newAnimalBtn"></div>
-
-        <form id="animal-form">
-            <label for="animal-input">Add an Animal:</label>
-            <input type="text" id="animal-input">
+            <!-- Buttons should appear here -->
+            <div class="row row-buttonOpt">
+                <div class="col-12">
+                    <div id="buttonView"></div>
+                    <div class="newAnimalBtn"></div>
+                </div>
+            </div>
             <br>
 
-            <input id="addAnimal" type="submit" value="Submit">
-        </form>
+            <div class="row row-btnSubmit">
+                <div class="col-6">
+                    <form id="animal-form">
+                        <label for="animal-input">Add an Animal:</label>
+                        <input type="text" id="animal-input">
+
+
+                        <input id="addAnimal" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div id="gifs-appear-hear"></div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 
 </html>

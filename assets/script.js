@@ -13,7 +13,7 @@ function getAnimalGifs() {
     }).then(function (response) {
         console.log(response);
         for (i = 0; i < response.data.length; i++) {
-            $('#newAnimalBtn').text("src", response.data[i].images.fixed_height_small)
+            $('#newAnimalBtn').text("src", response.data[i].images.original)
 
             $('.newGif').text(JSON.stringify(response));
         }
