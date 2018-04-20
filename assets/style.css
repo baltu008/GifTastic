@@ -26,3 +26,12 @@ body {
 .row-btnSubmit {
     margin-left: 20px;
 }
+
+img {
+    height: 225px;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border: solid 2px grey;
+    border-radius: 10px;
+}
